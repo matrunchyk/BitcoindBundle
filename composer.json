@@ -1,5 +1,5 @@
 {
-    "name": "matrunchyk/bitcoind-bundle",
+    "name": "matrunchyk/bitcoindbundle",
     "homepage": "https://github.com/matrunchyk/BitcoindBundle",
     "type": "symfony-bundle",
     "description": "Bundle that gives you a bitcoind service wrapper. Also comes with tasks that you can use on the command line.",
