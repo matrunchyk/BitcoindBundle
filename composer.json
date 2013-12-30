@@ -1,6 +1,6 @@
 {
-    "name": "nbobtc/bitcoind-bundle",
-    "homepage": "https://github.com/nbobtc/BitcoindBundle",
+    "name": "matrunchyk/bitcoind-bundle",
+    "homepage": "https://github.com/matrunchyk/BitcoindBundle",
     "type": "symfony-bundle",
     "description": "Bundle that gives you a bitcoind service wrapper. Also comes with tasks that you can use on the command line.",
     "keywords": ["bitcoind","bitcoin","symfony bundle"],
@@ -12,8 +12,8 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/nbobtc/BitcoindBundle/issues",
-        "source": "https://github.com/nbobtc/BitcoindBundle"
+        "issues": "https://github.com/matrunchyk/BitcoindBundle/issues",
+        "source": "https://github.com/matrunchyk/BitcoindBundle"
     },
     "minimum-stability": "dev",
     "extra": {
@@ -26,7 +26,7 @@
     },
     "target-dir": "Nbobtc/Bundle/BitcoindBundle",
     "require": {
-        "symfony/symfony": ">=2.1,<=2.4",
+        "symfony/symfony": ">=2.1",
         "nbobtc/bitcoind-php": "*"
     }
 }
