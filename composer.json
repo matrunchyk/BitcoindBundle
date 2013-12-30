@@ -22,11 +22,11 @@
         }
     },
     "autoload": {
-        "psr-0": { "Nbobtc\\Bundle\\BitcoindBundle": "" }
+        "psr-0": { "Matrunchyk\\Bundle\\BitcoindBundle": "" }
     },
-    "target-dir": "Nbobtc/Bundle/BitcoindBundle",
+    "target-dir": "Matrunchyk/Bundle/BitcoindBundle",
     "require": {
         "symfony/symfony": ">=2.1",
-        "nbobtc/bitcoind-php": "*"
+        "matrunchyk/bitcoind-php": "*"
     }
 }

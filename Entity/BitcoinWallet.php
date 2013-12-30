@@ -1,11 +1,11 @@
 <?php
 
-namespace Nbobtc\Bundle\BitcoindBundle\Entity;
+namespace Matrunchyk\Bundle\BitcoindBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * @ORM\Entity(repositoryClass="Nbobtc\Bundle\BitcoindBundle\Entity\BitcoinWalletRepository")
+ * @ORM\Entity(repositoryClass="Matrunchyk\Bundle\BitcoindBundle\Entity\BitcoinWalletRepository")
  * @ORM\Table(name="bitcoin_wallets")
  * @ORM\HasLifecycleCallbacks
  */

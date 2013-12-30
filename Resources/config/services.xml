@@ -13,15 +13,15 @@
     </parameters>
 
     <services>
-        <service id="bitcoind.client" class="Nbobtc\Bitcoind\Client" public="false">
+        <service id="bitcoind.client" class="Matrunchyk\Bitcoind\Client" public="false">
             <argument>%bitcoind.schema%://%bitcoind.username%:%bitcoind.password%@%bitcoind.host%:%bitcoind.port%</argument>
         </service>
 
-        <service id="bitcoind" class="Nbobtc\Bitcoind\Bitcoind">
+        <service id="bitcoind" class="Matrunchyk\Bitcoind\Bitcoind">
             <argument type="service" id="bitcoind.client" />
         </service>
 
-        <service id="manager.bitcoin_wallet" class="Nbobtc\Bundle\BitcoindBundle\Manager\BitcoinWalletManager">
+        <service id="manager.bitcoin_wallet" class="Matrunchyk\Bundle\BitcoindBundle\Manager\BitcoinWalletManager">
             <call method="setBitcoind">
                 <argument type="service" id="bitcoind" />
             </call>

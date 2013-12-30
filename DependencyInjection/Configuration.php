@@ -1,6 +1,6 @@
 <?php
 
-namespace Nbobtc\Bundle\BitcoindBundle\DependencyInjection;
+namespace Matrunchyk\Bundle\BitcoindBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;

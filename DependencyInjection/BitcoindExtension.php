@@ -1,6 +1,6 @@
 <?php
 
-namespace Nbobtc\Bundle\BitcoindBundle\DependencyInjection;
+namespace Matrunchyk\Bundle\BitcoindBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;

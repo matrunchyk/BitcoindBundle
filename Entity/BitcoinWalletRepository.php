@@ -1,9 +1,9 @@
 <?php
 
-namespace Nbobtc\Bundle\BitcoindBundle\Entity;
+namespace Matrunchyk\Bundle\BitcoindBundle\Entity;
 
 use Doctrine\ORM\EntityRepository;
-use Nbobtc\Bundle\BitcoindBundle\Entity\BitcoinWallet;
+use Matrunchyk\Bundle\BitcoindBundle\Entity\BitcoinWallet;
 
 /**
  */

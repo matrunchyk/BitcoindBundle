@@ -1,13 +1,13 @@
 <?php
 
-namespace Nbobtc\Bundle\BitcoindBundle\Manager;
+namespace Matrunchyk\Bundle\BitcoindBundle\Manager;
 
-use Nbobtc\Bitcoind\Bitcoind;
+use Matrunchyk\Bitcoind\Bitcoind;
 use Doctrine\ORM\EntityManager;
 use Symfony\Component\EventDispatcher\EventDispatcherInterface;
 use Symfony\Component\EventDispatcher\GenericEvent;
-use Nbobtc\Bundle\BitcoindBundle\Entity\BitcoinWallet;
-use Nbobtc\Bundle\BitcoindBundle\Entity\BitcoinWalletRepository;
+use Matrunchyk\Bundle\BitcoindBundle\Entity\BitcoinWallet;
+use Matrunchyk\Bundle\BitcoindBundle\Entity\BitcoinWalletRepository;
 
 /**
  * This allows you to manager a large bitcoin wallet, this

@@ -1,4 +1,4 @@
-NbobtcBitcoindBundle
+MatrunchykBitcoindBundle
 ====================
 
 Used for symfony2 projects that want to use a bitcoind server.
