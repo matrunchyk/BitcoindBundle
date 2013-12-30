@@ -6,7 +6,7 @@ Used for symfony2 projects that want to use a bitcoind server.
 # Requirements
 
 * [bitcoind](https://en.bitcoin.it/wiki/Bitcoind)
-* [nbobtc/bitcoind-php](https://github.com/nbobtc/bitcoind-php) (Included in this packages `composer.json` file)
+* [nbobtc/bitcoind-php](https://github.com/matrunchyk/bitcoind-php) (Included in this packages `composer.json` file)
 
 # Installation
 
@@ -14,7 +14,7 @@ Edit your `composer.json` file and add:
 
 
     "require": {
-        "nbobtc/bitcoind-bundle": ">=2.1,<2.4"
+        "matrunchyk/bitcoind-bundle": ">=2.1"
     }
 
 Next you will need to add it in your `app/AppKernel.php` file.
@@ -24,7 +24,7 @@ Next you will need to add it in your `app/AppKernel.php` file.
     {   
         $bundles = array(
             // ...
-            new Nbobtc\Bundle\BitcoindBundle\BitcoindBundle(),
+            new Matrunchyk\Bundle\BitcoindBundle\BitcoindBundle(),
             // ...
         );  
 
@@ -81,7 +81,7 @@ You now have access to a bitcoind service.
     // In a controller
     $bitcoind = $this->get('bitcoind');
 
-For more information on how to use the bitcoind wrapper see the [nbobtc/bitcoind-php](https://github.com/nbobtc/bitcoind-php)
+For more information on how to use the bitcoind wrapper see the [matrunchyk/bitcoind-php](https://github.com/matrunchyk/bitcoind-php)
 project.
 
 # Wallet Manager
