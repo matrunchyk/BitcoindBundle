@@ -14,7 +14,7 @@ Edit your `composer.json` file and add:
 
 
     "require": {
-        "matrunchyk/bitcoindbundle": ">=2.1"
+        "matrunchyk/bitcoindbundle": "dev-master"
     }
 
 Next you will need to add it in your `app/AppKernel.php` file.
