@@ -6,7 +6,7 @@ Used for symfony2 projects that want to use a bitcoind server.
 # Requirements
 
 * [bitcoind](https://en.bitcoin.it/wiki/Bitcoind)
-* [nbobtc/bitcoind-php](https://github.com/matrunchyk/bitcoind-php) (Included in this packages `composer.json` file)
+* [matrunchyk/bitcoind-php](https://github.com/matrunchyk/bitcoind-php) (Included in this packages `composer.json` file)
 
 # Installation
 
